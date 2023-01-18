@@ -16,10 +16,13 @@ export default function Home() {
       <main className={styles.main}>
         <iframe
           src="https://drive.google.com/file/d/126dfJVNgIAlVknt6cS-JZs0W7HYnUw07/preview"
-          width="100%"
-          height="100%"
           allow="autoplay"
-          style={{ position: 'absolute' }}
+          style={{
+            position: "absolute",
+            height: "100%",
+            width: "100%",
+          
+          }}
         />
       </main>
     </>

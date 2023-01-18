@@ -7,4 +7,9 @@ html, body{
   color: #333;
   background-color: #fff;
   min-height: 100vh;
+  min-width: 100vw;
+}
+
+* {
+  box-sizing: border-box;
 }
